@@ -159,6 +159,8 @@ dependencies {
     onlyMainRuntimeOnly "curse.maven:create-328085:6255497"
     onlyMainRuntimeOnly "curse.maven:minecraft-add-1090474:6167550"
 
+    onlyMainRuntimeOnly "curse.maven:excavated-variants-577411:5625108"
+    onlyMainRuntimeOnly "curse.maven:dynamic-asset-generator-577096:5625118"
 
     println("----Scan onlyMainRuntimeOnly libs begin----")
     fileTree(dir: 'libs', include: ['*.jar']).each { File file ->
